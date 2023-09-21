@@ -2,6 +2,6 @@
 
 name="${1}"
 
-touch "${name}.txt"
-git add "${name}.txt"
+touch "data/${name}.txt"
+git add "data/${name}.txt"
 git commit -m "Add ${name}.txt"
