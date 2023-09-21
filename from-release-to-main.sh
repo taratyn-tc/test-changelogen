@@ -4,4 +4,4 @@ uuid="$(uuidgen)"
 
 bash create-and-commit-file.sh "${uuid}"
 
-npx changelogen --bump --release --push --clean
+npx changelogen --bump --release --push --clean --no-output
