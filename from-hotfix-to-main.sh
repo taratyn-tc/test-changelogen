@@ -2,8 +2,6 @@
 
 uuid="$(uuidgen)"
 
-touch "${uuid}.txt"
-git add "${uuid}.txt"
-git commit -m "Add ${uuid}.txt"
+bash create-and-commit-file.sh "${uuid}"
 
 npx changelogen --bump --patch --push --clean
